@@ -1,5 +1,5 @@
 # crawlLyrics
-This is a simple crawler to get lyrics from netease-music. 
+This is a simple python crawler to get lyrics from netease-music. 
 ONLY for CHINESE songs.
 
 It's my first time to code a crawler. So if you have any questions, please contact me to learn together.
@@ -17,4 +17,4 @@ How to use:
 
 What the txt file looks like:
 
-one line one song
+ one line one song
