@@ -14,9 +14,9 @@ for line in segmentLyrics:
     wordListInline = line.split(' ')[:-1]  #delete char \n
     wordSetInline = set(wordListInline)
     uniqueWordNum = len(wordSetInline)
-    print uniqueWordNum
+    if uniqueWordNum == 0:
+        continue
     result = dict(Counter(wordListInline))
-    print result
 
     ldaclyrics.write(str(uniqueWordNum))
     ldaclyrics.write(' ')
