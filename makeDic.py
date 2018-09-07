@@ -1,7 +1,7 @@
 
 wordList = []
 worddic = {}
-with open("//home//liyicong//Desktop//lyrics//SegmentLyrics.txt","r") as SegmentLyrics:
+with open("//home//ubuntu//Desktop//lyrics//SegmentLyrics.txt","r") as SegmentLyrics:
     for line in SegmentLyrics:
         listLyric = line.split(' ')
         print listLyric
