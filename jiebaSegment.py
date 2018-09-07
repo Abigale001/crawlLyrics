@@ -3,7 +3,7 @@ import jieba_fast as jieba
 #delete the stop words
 stop = [line.strip().decode('utf-8') for line in open('//home//liyicong//Desktop//lyrics//stop_words_zh.txt','r').readlines()]
 
-with open("//home//liyicong//Desktop//lyrics//lyrics.txt","r") as lyricFile:
+with open("//home//ubuntu//Desktop//lyrics//lyrics.txt","r") as lyricFile:
     segmentLyrics = open('//home//liyicong//Desktop//lyrics//SegmentLyrics.txt', 'a+')
     for line in lyricFile:
         seg_list = jieba.cut(line, cut_all=False)  ##type:generator
