@@ -46,6 +46,7 @@ This is a simple python script to segment lyrics and delete the stop word （sto
 This is a simple python scirpt to make dictionary AT. words in the jiebaSegment file.
 
 **4 makeldac.py**
+
 This is a simple python script to make ldac format dataset.
 
 
