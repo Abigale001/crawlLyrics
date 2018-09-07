@@ -1,4 +1,6 @@
 # crawlLyrics
+**1 pa.py**
+
 This is a simple python crawler to get lyrics from netease-music. 
 ONLY for CHINESE songs.
 
@@ -18,3 +20,5 @@ How to use:
 What the txt file looks like:
 
  one line one song
+
+**2 jiebaSegment.py**
