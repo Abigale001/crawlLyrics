@@ -2,14 +2,14 @@ from collections import Counter
 
 # read dic from txt
 lyricDict = {}
-dicFile = open("//home//liyicong//Desktop//lyrics//lyrics.dict","r")
+dicFile = open("//home//ubuntu//Desktop//lyrics//lyrics.dict","r")
 for eachterm in dicFile:
     (key,value) = eachterm.split(' ')
     lyricDict[key] = int(value)
 print lyricDict
 
-segmentLyrics = open('//home//liyicong//Desktop//lyrics//SegmentLyrics.txt', 'r')
-ldaclyrics = open('//home//liyicong//Desktop//lyrics//lyrics.ldac', 'a+')
+segmentLyrics = open('//home//ubuntu//Desktop//lyrics//SegmentLyrics.txt', 'r')
+ldaclyrics = open('//home//ubuntu//Desktop//lyrics//lyrics.ldac', 'a+')
 for line in segmentLyrics:
     wordListInline = line.split(' ')[:-1]  #delete char \n
     wordSetInline = set(wordListInline)
