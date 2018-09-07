@@ -12,7 +12,7 @@ wordSet = set(wordList)
 wordSet.remove('\n')
 print len(wordSet)
 
-dicFile = open("//home//liyicong//Desktop//lyrics//lyrics.dict","a+")
+dicFile = open("//home//ubuntu//Desktop//lyrics//lyrics.dict","a+")
 
 eleId = 0
 for ele in wordSet:
