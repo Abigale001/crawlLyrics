@@ -1,4 +1,20 @@
 # crawlLyrics
+
+This is a project to crawl lyrics from the website and make it to lda-c format.
+
+>>What's lda-c format?
+>>
+>>Each lyric of a song makes a line: uniqueWordNumber term1:count1 term2:count2 term3:count3 ....
+>>
+>>The uniqueWordNumber is vacabulary of a lyric. Term means a word and the count means the number of the term in the lyric.
+
+Steps from lyrics to lda-c format dataset:
+1. crawl lyrics from netease-music --> pa.py
+2. segment the lyrics and delete the stop words --> jiebaSegment.py
+3. make dictionary for the Chinese words --> makeDic.py
+4. turn the words to id AT. dict --> makeldac.py
+
+
 **1 pa.py**
 
 This is a simple python crawler to get lyrics from netease-music. 
