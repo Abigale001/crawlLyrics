@@ -38,3 +38,15 @@ What the txt file looks like:
  one line one song
 
 **2 jiebaSegment.py**
+
+This is a simple python script to segment lyrics and delete the stop word （stop word file URL: https://pan.baidu.com/s/1QDcbkV6z6WNHq1_l53lvMw）.
+
+**3 makeDict.py**
+
+This is a simple python scirpt to make dictionary AT. words in the jiebaSegment file.
+
+**4 makeldac.py**
+This is a simple python script to make ldac format dataset.
+
+
+If you have any questions, welcome to contact me.
